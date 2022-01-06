@@ -8,6 +8,7 @@ if (number > 0)
 {
     tempNumber = +number;
     number = -number;
+    Console.WriteLine("you entered a non-negative number, I will change the number to negative");
     Console.Write(number + " ");
 }
 else
