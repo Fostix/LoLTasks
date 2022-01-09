@@ -9,11 +9,11 @@ for (int i = 0; i < all.Length; i++)
     {
         if (!(all[i] || all[j]) == (!all[i] && !all[j]))
         {
-            Console.WriteLine($"X = {all[i]}, Y = {all[j]} - true");
+            Console.WriteLine($" for X = {all[i]}, Y = {all[j]} - true");
         }
         else
         {
-            Console.WriteLine($"X = {all[i]}, Y = {all[j]} - false");
+            Console.WriteLine($" for X = {all[i]}, Y = {all[j]} - false");
             result = false;
             break;
         }
