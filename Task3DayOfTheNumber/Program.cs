@@ -4,7 +4,7 @@ Console.Write("Enter number day: ");
 int number = int.Parse(Console.ReadLine());
 
 string[] array = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
-number = number - 1;
+number--;
 
 if (number >= 0 & number < 31)
 {
