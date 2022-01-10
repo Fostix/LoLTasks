@@ -4,14 +4,88 @@
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="&lt;div style=&quot;color: rgb(255 , 255 , 255) ; background-color: rgb(0 , 0 , 0) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&amp;nbsp;Определить номер четверти плоскости, в которой находится точка с координатами Х и У, причем X ≠ 0 и Y ≠ 0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;direction=east;" parent="1" vertex="1">
-                    <mxGeometry x="50" y="20" width="260" height="190" as="geometry"/>
+                <mxCell id="12" value="" style="edgeStyle=none;curved=1;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;shadow=0;" edge="1" parent="1" source="8" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="420" y="30" width="120" height="60" as="geometry"/>
+                <mxCell id="8" value="Start" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;sketch=0;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="10" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="if(" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="380" y="230" width="180" height="140" as="geometry"/>
+                <mxCell id="15" value="" style="edgeStyle=none;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;shadow=0;" edge="1" parent="1" source="9" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="yes" style="edgeStyle=none;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;shadow=0;" edge="1" parent="1" source="9" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="if(xAxis &amp;gt; 0 &amp;amp;&amp;amp; yAxis &amp;gt; 0)" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;sketch=0;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="475" y="350" width="150" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Определить номер четверти плоскости, в которой находится точка с координатами X и Y причем X&amp;nbsp;&lt;span style=&quot;color: rgb(189, 193, 198); font-size: 16px; background-color: rgb(32, 33, 36);&quot;&gt;≠ 0&lt;/span&gt;&amp;nbsp;и Y&amp;nbsp;&lt;span style=&quot;color: rgb(189, 193, 198); font-size: 14px; background-color: rgb(32, 33, 36);&quot;&gt;≠ 0&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;fontFamily=Helvetica;fontSize=12;align=center;shadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="10" width="170" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=none;curved=1;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;shadow=0;" edge="1" parent="1" source="11" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="xAxis, yAxis" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;sketch=0;hachureGap=4;fontFamily=Helvetica;fontSize=12;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="edgeStyle=none;curved=1;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;shadow=0;" edge="1" parent="1" source="14" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="yes" style="edgeStyle=none;curved=1;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;shadow=0;" edge="1" parent="1" source="14" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="if(xAxis &amp;lt; 0 &amp;amp;&amp;amp; yAxis &amp;gt; 0)" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;sketch=0;hachureGap=4;fontFamily=Helvetica;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="475" y="580" width="150" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=none;curved=1;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;shadow=0;" edge="1" parent="1" source="16" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="yes" style="edgeStyle=none;curved=1;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;shadow=0;" edge="1" parent="1" source="16" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="if(xAxis &amp;lt; 0 &amp;amp;&amp;amp; yAxis &amp;lt; 0)" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;sketch=0;hachureGap=4;fontFamily=Helvetica;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="475" y="810" width="150" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="yes" style="edgeStyle=none;curved=1;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;shadow=0;" edge="1" parent="1" source="18" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="if(xAxis &amp;gt; 0 &amp;amp;&amp;amp; yAxis &amp;lt; 0)" style="rhombus;whiteSpace=wrap;html=1;fontSize=12;sketch=0;hachureGap=4;fontFamily=Helvetica;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="475" y="1040" width="150" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="edgeStyle=none;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;shadow=0;" edge="1" parent="1" source="20" target="39">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Print fourth quarter of the coordinate plane" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;sketch=0;hachureGap=4;fontFamily=Helvetica;fontSize=12;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="745" y="1055" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="edgeStyle=none;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;shadow=0;" edge="1" parent="1" source="22" target="39">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1030" y="405"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="Print&amp;nbsp;first quarter of the coordinate plane" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;sketch=0;hachureGap=4;fontFamily=Helvetica;fontSize=12;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="745" y="365" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=none;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;shadow=0;" edge="1" parent="1" source="24">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1030" y="635" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="Print second quarter of the coordinate plane" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;sketch=0;hachureGap=4;fontFamily=Helvetica;fontSize=12;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="745" y="595" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" style="edgeStyle=none;rounded=0;sketch=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;shadow=0;" edge="1" parent="1" source="26">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1030" y="865" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="Print third quarter of the coordinate plane" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;sketch=0;hachureGap=4;fontFamily=Helvetica;fontSize=12;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="745" y="825" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="End" style="ellipse;whiteSpace=wrap;html=1;sketch=0;hachureGap=4;fontFamily=Helvetica;fontSize=12;fillStyle=auto;gradientColor=none;fillColor=default;strokeColor=default;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="970" y="1065" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
