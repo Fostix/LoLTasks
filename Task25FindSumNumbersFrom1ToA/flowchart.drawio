@@ -1,0 +1,16 @@
+<mxfile host="65bd71144e">
+    <diagram id="5acW183Ce8F0xmKD9UpC" name="Page-1">
+        <mxGraphModel dx="1066" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="Найти сумму чисел от до A" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;sketch=1;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="10" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=22;fontStyle=0;horizontal=1;verticalAlign=middle;labelBackgroundColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="40" width="100" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
