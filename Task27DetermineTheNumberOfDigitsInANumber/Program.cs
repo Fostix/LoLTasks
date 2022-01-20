@@ -1,6 +1,6 @@
 ﻿// Определить количество цифр в числе.
 
-Console.Write("Ener number: ");
+Console.Write("Enter number: ");
 int number = int.Parse(Console.ReadLine()),
 count = 0;
 
