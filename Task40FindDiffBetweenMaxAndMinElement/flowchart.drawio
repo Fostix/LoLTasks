@@ -1,0 +1,146 @@
+<mxfile host="65bd71144e">
+    <diagram id="fTggp3t3-AzgLWKixX7W" name="Page-1">
+        <mxGraphModel dx="1403" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="В Указанном массиве вещественных чисел найдите разницу между максимальным и минимальным элементом." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="10" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="10" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="51">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="array[length]" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="length" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10" target="44">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="min, max = FindMinAndMax(array[])" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                    <mxGeometry x="428" y="555" width="245" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="12" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="FindMinAndMax(array[])" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1605" y="870" width="190" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="13" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="min = array[0]&lt;br&gt;max = array[0]" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1640" y="1025" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="True" style="edgeStyle=none;html=1;" edge="1" parent="1" source="15" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="False" style="edgeStyle=none;html=1;" edge="1" parent="1" source="15" target="47">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="i &amp;lt; array.Length" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="1640" y="1155" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="True" style="edgeStyle=none;html=1;" edge="1" parent="1" source="17" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="False" style="edgeStyle=none;html=1;" edge="1" parent="1" source="17" target="25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="array[i] &amp;lt; min" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1660" y="1315" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="23" target="15">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1700" y="1630"/>
+                            <mxPoint x="1965" y="1630"/>
+                            <mxPoint x="1985" y="1630"/>
+                            <mxPoint x="1985" y="1195"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="min = array[i]" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1640" y="1485" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="True" style="edgeStyle=none;html=1;" edge="1" parent="1" source="25" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;" edge="1" parent="1" source="25">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1985" y="1355" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="array[i] &amp;gt; max" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1820" y="1315" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=none;html=1;" edge="1" parent="1" source="27">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1985" y="1515" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="max = array[i]" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1800" y="1485" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Return min, max" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1220" y="1165" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="730" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="47" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="Print min, max" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+                    <mxGeometry x="1440" y="1155" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="51" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="FillArray(array[])" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="54" target="55">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="FillArray(array[])" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1630" y="10" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="True" style="edgeStyle=none;html=1;" edge="1" parent="1" source="55" target="59">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="False" style="edgeStyle=none;html=1;" edge="1" parent="1" source="55" target="62">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="i &amp;lt; array.Length" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="1630" y="150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="59" target="55">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1820" y="335"/>
+                            <mxPoint x="1820" y="180"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="59" value="array[i] = Random(1,10) / 1.7" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1602.5" y="310" width="175" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1430" y="150" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
