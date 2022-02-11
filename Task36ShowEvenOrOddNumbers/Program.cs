@@ -105,18 +105,6 @@ void EvenMethod(int[] odd)
     Console.WriteLine("Even numbers: " + many);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 void PrintArray(int[] print)
 {
     for (int i = 0; i < print.Length; i++)

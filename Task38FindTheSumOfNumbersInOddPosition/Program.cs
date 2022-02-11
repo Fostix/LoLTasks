@@ -27,12 +27,6 @@ FindSum(array);
 PrintArray(array);
 
 
-
-
-
-
-
-
 void FillArray(int[] fill)
 {
     for (int i = 0; i < fill.Length; i++)
